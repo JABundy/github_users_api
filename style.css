@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vh;
+    padding: 16px;
+}
+
+#usercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 180px;
+    border: solid 1px gray;
+    border-radius: 7px;
+    padding: 16px;
+}
+  
+#userimage {
+    width: 100px;
+}
+
+
