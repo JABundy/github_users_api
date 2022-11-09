@@ -4,6 +4,19 @@ const requestData = async () => {
 	appState.data = data;
   }
 
+// 
+
+  let userCard = document.createElement("div");
+  usercard.id = "userbox";
+  let userImage = document.createElement("img");
+  userImgage.id = "userimg";
+  let userName = document.createElement("h4");
+  userName.id = "username";
+  let showBtn = document.createElement("button");
+  showBtn.id = "showbtn";
+  showBtn.innerText = "Show more";
+
+  
   <div className="container">
                
                 {
